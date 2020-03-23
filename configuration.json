@@ -1,0 +1,107 @@
+{
+    "entries": [
+        {
+            "type": "string",
+            "name": "company",
+            "frequency": 35,
+            "values": [
+                "Google",
+                "Amazon",
+                "Oracle",
+                "Microsoft",
+                "Apple"
+            ],
+            "variableComparators": true,
+            "comparators": [
+                {
+                    "symbol": "=",
+                    "frequency": 90
+                },
+                {
+                    "symbol": "!=",
+                    "frequency": 10
+                }
+            ]
+        },
+        {
+            "type": "number",
+            "name": "value",
+            "frequency": 20,
+            "range": {
+                "start": 0,
+                "end": 100
+            },
+            "variableComparators": false,
+            "comparators": [
+                "=",
+                "!=",
+                ">",
+                "<",
+                ">=",
+                "<="
+            ]
+        },
+        {
+            "type": "number",
+            "name": "drop",
+            "frequency": 15,
+            "range": {
+                "start": 0,
+                "end": 10
+            },
+            "variableComparators": false,
+            "comparators": [
+                "=",
+                "!=",
+                ">",
+                "<",
+                ">=",
+                "<="
+            ]
+        },
+        {
+            "type": "number",
+            "name": "variation",
+            "frequency": 10,
+            "range": {
+                "start": 0,
+                "end": 1
+            },
+            "variableComparators": false,
+            "comparators": [
+                "=",
+                "!=",
+                ">",
+                "<",
+                ">=",
+                "<="
+            ]
+        },
+        {
+            "type": "date",
+            "name": "date",
+            "frequency": 20,
+            "range": {
+                "start": {
+                    "year": 2000,
+                    "month": 8,
+                    "day": 10
+                },
+                "end": {
+                    "year": 2019,
+                    "month": 4,
+                    "day": 22
+                }
+            },
+            "variableComparators": false,
+            "comparators": [
+                "=",
+                "!=",
+                ">",
+                "<",
+                ">=",
+                "<="
+            ]
+        }
+    ]
+}
